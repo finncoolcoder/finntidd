@@ -9,7 +9,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
 
-```
+
 steps:
   - name: Get source code
     uses: actions/checkout@v4
@@ -29,4 +29,4 @@ steps:
     run: neocities push public
     env:
       NEOCITIES_API_KEY: ${{ secrets.NEOCITIES_API_KEY }}
-```
+
