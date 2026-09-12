@@ -8,25 +8,22 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    steps:
+      - name: Get source code
+        uses: actions/checkout@v4
 
+      - name: Install Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: latest
 
-steps:
-  - name: Get source code
-    uses: actions/checkout@v4
+      - name: Build site
+        run: hugo
 
-  - name: Install Hugo
-    uses: peaceiris/actions-hugo@v3
-    with:
-      hugo-version: latest
+      - name: Install Neocities CLI
+        run: npm install -g neocities
 
-  - name: Build site
-    run: hugo
-
-  - name: Install Neocities CLI
-    run: npm install -g neocities
-
-  - name: Deploy to Neocities
-    run: neocities push public
-    env:
-      NEOCITIES_API_KEY: ${{ secrets.NEOCITIES_API_KEY }}
-
+      - name: Deploy to Neocities
+        run: neocities push public
+        env:
+          NEOCITIES_API_KEY: ${{ secrets.NEOCITIES_API_KEY }}
