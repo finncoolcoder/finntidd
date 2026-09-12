@@ -1,4 +1,80 @@
-baseURL = 'https://zorp.neocities.org/'
-locale = 'en-us'
-title = 'My New Hugo Project'
-theme = 'risotto-0.5.1'
+```toml
+baseURL = "https://zorp.neocities.org/"
+languageCode = "en-us"
+title = "Finn Tidd"
+theme = "risotto-0.5.1"
+
+# ── Site ─────────────────────────────────────────────
+enableInlineShortcodes = true
+sectionPagesMenu = "main"
+
+[pagination]
+pagerSize = 20
+
+# ── Risotto ──────────────────────────────────────────
+[params]
+
+[params.theme]
+palette = "base16-dark"
+
+[params.about]
+title = "Finn Tidd"
+description = "Everything Finn Tidd on one website."
+logo = "🍚"
+# logo_image = "images/logo.png"
+
+[[params.socialLinks]]
+icon = "fa-brands fa-github"
+title = "GitHub"
+url = "https://github.com/finncoolcoder"
+
+[[params.socialLinks]]
+icon = "fa-brands fa-instagram"
+title = "Instagram"
+url = "https://instagram.com/finntidd1"
+
+[[params.socialLinks]]
+icon = "fa-brands fa-youtube"
+title = "YouTube"
+url = "https://youtube.com/@finndolf/"
+# ── Navigation ───────────────────────────────────────
+[menu]
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "Posts"
+url = "/posts/"
+weight = 2
+
+# ── Taxonomies ────────────────────────────────────────
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
+
+# ── Markdown ──────────────────────────────────────────
+[markup.goldmark.renderer]
+unsafe = true
+
+[markup.tableOfContents]
+startLevel = 2
+endLevel = 3
+ordered = true
+
+# ── Privacy ───────────────────────────────────────────
+[privacy.youtube]
+privacyEnhanced = true
+
+[privacy.x]
+enableDNT = true
+
+[privacy.vimeo]
+simple = true
+
+[privacy.instagram]
+simple = true
+```
