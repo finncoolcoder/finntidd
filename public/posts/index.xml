@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
-		<title>Finn Tidd</title>
-		<link>https://zorp.neocities.org/</link>
-		<description>Recent content on Finn Tidd</description>
+		<title>Posts on Finn Tidd</title>
+		<link>https://zorp.neocities.org/posts/</link>
+		<description>Recent content in Posts on Finn Tidd</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
 		
@@ -12,7 +12,7 @@
 		
 			<lastBuildDate>Sat, 12 Sep 2026 09:54:51 -0400</lastBuildDate>
 		
-			<atom:link href="https://zorp.neocities.org/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="https://zorp.neocities.org/posts/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>First Post</title>
 				<link>https://zorp.neocities.org/posts/first/</link>
