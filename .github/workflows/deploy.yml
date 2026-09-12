@@ -29,11 +29,7 @@ jobs:
       - name: Install Neocities CLI
         run: gem install neocities
 
-      - name: Login to Neocities
-        run: |
-          printf "%s\n" "$NEOCITIES_API_KEY" | neocities
-        env:
-          NEOCITIES_API_KEY: ${{ secrets.NEOCITIES_API_KEY }}
-
       - name: Deploy to Neocities
         run: neocities push public
+        env:
+          NEOCITIES_API_KEY: ${{ secrets.NEOCITIES_API_KEY }}
