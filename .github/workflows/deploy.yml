@@ -21,15 +21,16 @@ jobs:
       - name: Build site
         run: hugo
 
+      - name: Install Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.3'
+
       - name: Install Neocities CLI
-        run: |
-          npm install -g neocities
-          echo "$(npm prefix -g)/bin" >> "$GITHUB_PATH"
+        run: gem install neocities
 
       - name: Check Neocities CLI
-        run: neocities --help
+        run: neocities
 
       - name: Deploy to Neocities
         run: neocities push public
-        env:
-          NEOCITIES_API_KEY: ${{ secrets.NEOCITIES_API_KEY }}
