@@ -8,6 +8,7 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+
     steps:
       - name: Get source code
         uses: actions/checkout@v4
@@ -21,7 +22,12 @@ jobs:
         run: hugo
 
       - name: Install Neocities CLI
-        run: npm install -g neocities
+        run: |
+          npm install -g neocities
+          echo "$(npm prefix -g)/bin" >> "$GITHUB_PATH"
+
+      - name: Check Neocities CLI
+        run: neocities --help
 
       - name: Deploy to Neocities
         run: neocities push public
