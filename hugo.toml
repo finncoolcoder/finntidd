@@ -1,4 +1,4 @@
-baseURL = 'zorp.neocities.org'
+baseURL = 'https://zorp.neocities.org/'
 locale = 'en-us'
 title = 'My New Hugo Project'
 theme = 'risotto-0.5.1'
