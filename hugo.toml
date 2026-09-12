@@ -1,4 +1,4 @@
-```toml
+toml
 baseURL = "https://zorp.neocities.org/"
 languageCode = "en-us"
 title = "Finn Tidd"
@@ -77,4 +77,4 @@ simple = true
 
 [privacy.instagram]
 simple = true
-```
+
