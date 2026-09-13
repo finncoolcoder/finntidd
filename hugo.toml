@@ -18,7 +18,7 @@ palette = "base16-dark"
 
 [params.about]
 title = "Finn Tidd"
-description = "Everything Finn Tidd on one website."
+description = "Everything Finn Tidd on one website. "
 logo = "🍚"
 # logo_image = "images/logo.png"
 

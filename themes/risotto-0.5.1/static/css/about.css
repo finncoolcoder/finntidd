@@ -1,4 +1,5 @@
 /* About/bio section */
+
 .about__logo {
     height: 1.5rem;
 }
@@ -6,13 +7,25 @@
 .about__title {
     display: inline;
     vertical-align: top;
+    background-color: #222222;
+    color: white;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
 }
 
 .about__title::before {
     content: none;
 }
 
+.about__description {
+    background-color: #222222;
+    color: white;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+}
+
 /* Social media links */
+
 .aside__social-links {
     padding: 0;
 }
@@ -23,4 +36,9 @@
 
 .aside__social-links li::marker {
     content: none;
+}
+
+.aside__social-links a {
+    background-color: #222222;
+    color: white;
 }

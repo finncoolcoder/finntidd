@@ -5,8 +5,9 @@
 <h1 class="about__title">{{ .title }}</h1>
 {{ with .description }}<p class="about__description">{{ . | markdownify }}</p>{{ end }}
 </div>
-{{ end }}
 
+{{ end }}
+<a href='https://postimg.cc/mzK2gy7t' target='_blank'><img src='https://i.postimg.cc/mkgcVdDN/SUNP0277.jpg' border='0' alt='SUNP0277'></a>
 <ul class="aside__social-links">
     {{ range $item := .Site.Params.socialLinks }}
     <li>
