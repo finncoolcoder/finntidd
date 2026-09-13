@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>FinnTidd.world on Finn Tidd</title>
-		<link>http://localhost:1313/</link>
+		<link>https://zorp.neocities.org/</link>
 		<description>Recent content in FinnTidd.world on Finn Tidd</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
@@ -10,14 +10,21 @@
 		
 		
 		
-			<lastBuildDate>Sat, 12 Sep 2026 09:54:51 -0400</lastBuildDate>
+			<lastBuildDate>Sun, 13 Sep 2026 10:54:41 -0400</lastBuildDate>
 		
-			<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="https://zorp.neocities.org/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Old Links</title>
+				<link>https://zorp.neocities.org/links/oldlinks/</link>
+				<pubDate>Sun, 13 Sep 2026 10:54:41 -0400</pubDate>
+				<guid>https://zorp.neocities.org/links/oldlinks/</guid>
+				<description>&lt;p&gt;&lt;a href=&#34;https://finntidd.world/old_site/legacy&#34;&gt;Legacy crazy homepage&lt;/a&gt;&#xA;&lt;a href=&#34;https://finntidd.world/old_site/tmbg&#34;&gt;They might be giants html improv&lt;/a&gt;&#xA;&lt;a href=&#34;https://finntidd.world/old_site/ipodcapstone&#34;&gt;Ipod Capstone homepage(2025)&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
 			<item>
 				<title>First Post</title>
-				<link>http://localhost:1313/posts/first/</link>
+				<link>https://zorp.neocities.org/posts/first/</link>
 				<pubDate>Sat, 12 Sep 2026 09:54:51 -0400</pubDate>
-				<guid>http://localhost:1313/posts/first/</guid>
+				<guid>https://zorp.neocities.org/posts/first/</guid>
 				<description>&lt;p&gt;Welcome to my new website. It is based off of hugo, hosted on neocities, and it utilizes a complex workflow that allows me to push changes to my hugo site without needing to download anything on my computer. Github actions allows me to add content or change configurations in hugo without ever using a command line. All I have to do is commit my changes and they are automatically pushed to neocities. The beauty of this is that I can also push my site to neocities from my computer by simply running&lt;/p&gt;</description>
 			</item>
 	</channel>

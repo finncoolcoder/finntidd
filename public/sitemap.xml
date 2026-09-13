@@ -2,21 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://zorp.neocities.org/</loc>
+    <lastmod>2026-09-13T10:54:41-04:00</lastmod>
+  </url><url>
+    <loc>https://zorp.neocities.org/links/</loc>
+    <lastmod>2026-09-13T10:54:41-04:00</lastmod>
+  </url><url>
+    <loc>https://zorp.neocities.org/links/oldlinks/</loc>
+    <lastmod>2026-09-13T10:54:41-04:00</lastmod>
+  </url><url>
+    <loc>https://zorp.neocities.org/posts/first/</loc>
     <lastmod>2026-09-12T09:54:51-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/first/</loc>
+    <loc>https://zorp.neocities.org/posts/</loc>
     <lastmod>2026-09-12T09:54:51-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2026-09-12T09:54:51-04:00</lastmod>
+    <loc>https://zorp.neocities.org/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://zorp.neocities.org/series/</loc>
   </url><url>
-    <loc>http://localhost:1313/links/</loc>
-  </url><url>
-    <loc>http://localhost:1313/series/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://zorp.neocities.org/tags/</loc>
   </url>
 </urlset>

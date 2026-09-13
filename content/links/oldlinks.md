@@ -1,6 +1,6 @@
 +++
 date = '2026-09-13T10:54:41-04:00'
-draft = true
+draft = false
 title = 'Old Links'
 +++
  [Legacy crazy homepage](https://finntidd.world/old_site/legacy)
