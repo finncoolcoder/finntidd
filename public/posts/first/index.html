@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head><title>First Post &ndash; Finn Tidd</title>
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><title>First Post &ndash; Finn Tidd</title>
 <meta name="description" content="Everything Finn Tidd on one website.">
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -15,9 +15,9 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.4/css/academicons.min.css" integrity="sha512-IW0nhlW5MgNydsXJO40En2EoCkTTjZhI3yuODrZIc8cQ4h1XcF53PsqDHa09NqnkXuIe0Oiyyj171BqZFwISBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 
-<link rel="stylesheet" href="https://zorp.neocities.org/css/palettes/base16-dark.css">
-<link rel="stylesheet" href="https://zorp.neocities.org/css/risotto.css">
-<link rel="stylesheet" href="https://zorp.neocities.org/css/custom.css">
+<link rel="stylesheet" href="http://localhost:1313/css/palettes/base16-dark.css">
+<link rel="stylesheet" href="http://localhost:1313/css/risotto.css">
+<link rel="stylesheet" href="http://localhost:1313/css/custom.css">
 
 
 
@@ -31,7 +31,7 @@
 
 
 <meta property="og:title" content="First Post &ndash; Finn Tidd" />
-<meta property="og:url" content="https://zorp.neocities.org/posts/first/" />
+<meta property="og:url" content="http://localhost:1313/posts/first/" />
 
   
     <meta property="og:description" content="Everything Finn Tidd on one website."/> 
@@ -45,14 +45,14 @@
 
             <header class="page__header"><nav class="page__nav main-nav">
     <ul>
-      <li class="nomarker"><h1 class="page__logo"><a href="https://zorp.neocities.org/" class="page__logo-inner">Finn Tidd</a></h1></li>
+      <li class="nomarker"><h1 class="page__logo"><a href="http://localhost:1313/" class="page__logo-inner">Finn Tidd</a></h1></li>
     
     
-    <li class="main-nav__item"><a class="nav-main-item" href="https://zorp.neocities.org/" title="">Home</a></li>
+    <li class="main-nav__item"><a class="nav-main-item" href="http://localhost:1313/" title="">Home</a></li>
     
-    <li class="main-nav__item"><a class="nav-main-item" href="https://zorp.neocities.org/posts/" title="">Posts</a></li>
+    <li class="main-nav__item"><a class="nav-main-item" href="http://localhost:1313/links/" title="Links">Links</a></li>
     
-    <li class="main-nav__item"><a class="nav-main-item active" href="https://zorp.neocities.org/posts/" title="Posts">Posts</a></li>
+    <li class="main-nav__item"><a class="nav-main-item active" href="http://localhost:1313/posts/" title="Posts">Posts</a></li>
     
     </ul>
 </nav>
@@ -67,7 +67,9 @@
         <p>Welcome to my new website. It is based off of hugo, hosted on neocities, and it utilizes a complex workflow that allows me to push changes to my hugo site without needing to download anything on my computer. Github actions allows me to add content or change configurations in hugo without ever using a command line. All I have to do is commit my changes and they are automatically pushed to neocities. The beauty of this is that I can also push my site to neocities from my computer by simply running</p>
 <pre tabindex="0"><code> git pull
 </code></pre><p>and then</p>
-<pre tabindex="0"><code>git push -u origin main
+<pre tabindex="0"><code>git add .
+git commit -m &#34;Update site&#34;
+git push
 </code></pre><p>This updates my computer with the most up to date version of the site, and then later, after I have changed things locally I can send these changes out to github, and github automatically sends them to neocities. An elegant solution.</p>
 
     </div>
