@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Links on Finn Tidd!</title>
-		<link>https://zorp.neocities.org/links/</link>
+		<link>https://finntidd.world/links/</link>
 		<description>Recent content in Links on Finn Tidd!</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
@@ -12,12 +12,12 @@
 		
 			<lastBuildDate>Sun, 13 Sep 2026 10:54:41 -0400</lastBuildDate>
 		
-			<atom:link href="https://zorp.neocities.org/links/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="https://finntidd.world/links/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>Old Links</title>
-				<link>https://zorp.neocities.org/links/oldlinks/</link>
+				<link>https://finntidd.world/links/oldlinks/</link>
 				<pubDate>Sun, 13 Sep 2026 10:54:41 -0400</pubDate>
-				<guid>https://zorp.neocities.org/links/oldlinks/</guid>
+				<guid>https://finntidd.world/links/oldlinks/</guid>
 				<description>&lt;p&gt;&lt;a href=&#34;https://finntidd.world/old_site/legacy&#34;&gt;Legacy crazy homepage&lt;/a&gt;&#xA;&lt;a href=&#34;https://finntidd.world/old_site/tmbg&#34;&gt;They might be giants html improv&lt;/a&gt;&#xA;&lt;a href=&#34;https://finntidd.world/old_site/ipodcapstone&#34;&gt;Ipod Capstone homepage(2025)&lt;/a&gt;&lt;/p&gt;</description>
 			</item>
 	</channel>

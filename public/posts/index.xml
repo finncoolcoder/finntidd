@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Posts on Finn Tidd!</title>
-		<link>https://zorp.neocities.org/posts/</link>
+		<link>https://finntidd.world/posts/</link>
 		<description>Recent content in Posts on Finn Tidd!</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
@@ -12,12 +12,12 @@
 		
 			<lastBuildDate>Sat, 12 Sep 2026 09:54:51 -0400</lastBuildDate>
 		
-			<atom:link href="https://zorp.neocities.org/posts/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="https://finntidd.world/posts/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>First Post</title>
-				<link>https://zorp.neocities.org/posts/first/</link>
+				<link>https://finntidd.world/posts/first/</link>
 				<pubDate>Sat, 12 Sep 2026 09:54:51 -0400</pubDate>
-				<guid>https://zorp.neocities.org/posts/first/</guid>
+				<guid>https://finntidd.world/posts/first/</guid>
 				<description>&lt;p&gt;Welcome to my new website. It is based off of hugo, hosted on neocities, and it utilizes a complex workflow that allows me to push changes to my hugo site without needing to download anything on my computer. Github actions allows me to add content or change configurations in hugo without ever using a command line. All I have to do is commit my changes and they are automatically pushed to neocities. The beauty of this is that I can also push my site to neocities from my computer by simply running&lt;/p&gt;</description>
 			</item>
 	</channel>
