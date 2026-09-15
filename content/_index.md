@@ -13,7 +13,7 @@ This website is a collection of everything I do, documented so its easier for yo
 * [Instagram](https://instagram.com/finntidd1)
 * [YouTube](https://youtube.com/@finndolf/)
 
-
+[![Build and Deploy](https://github.com/finncoolcoder/finntidd/actions/workflows/deploy.yml/badge.svg?branch=main)](https://github.com/finncoolcoder/finntidd/actions/workflows/deploy.yml)
 
 <a title="free world map tracker" href="https://smallcounter.com/vmap/1789314130/"> <img title="free world map counter" src="https://smallcounter.com/map/view.php?type=180&id=1789314130" border="1" alt="world map hits counter" /></a><br> <a href="https://smallcounter.com/map/">map counter</a> 
   <iframe src="https://www3.cbox.ws/box/?boxid=3540448&boxtag=fCZrm2" width="100%" height="450" allowtransparency="yes" allow="autoplay" frameborder="0" marginheight="0" marginwidth="0" scrolling="auto"></iframe>	

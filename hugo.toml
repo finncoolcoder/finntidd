@@ -1,6 +1,6 @@
 baseURL = "https://finntidd.world/"
 languageCode = "en-us"
-title = "Finn Tidd!"
+title = "FinnTidd.World"
 theme = "risotto-0.5.1"
 
 # ── Site ─────────────────────────────────────────────
@@ -17,9 +17,9 @@ pagerSize = 20
 palette = "base16-dark"
 
 [params.about]
-title = "Finn Tidd"
+title = "Finn Tidd - °‧ 𓆝 𓆟 𓆞 ·｡"
 description = "Everything Finn Tidd on one website. "
-logo = "🍚"
+logo = " "
 # logo_image = "images/logo.png"
 
 [[params.socialLinks]]
